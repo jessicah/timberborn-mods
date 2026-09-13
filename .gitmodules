@@ -1,0 +1,12 @@
+[submodule "Sate-a-Mole"]
+	path = Sate-a-Mole
+	url = ssh://git@github.com/jessicah/sate-a-mole
+[submodule "Wack-a-Mole"]
+	path = Wack-a-Mole
+	url = ssh://git@github.com/jessicah/whack-a-mole
+[submodule "Sort-a-Mole"]
+	path = Sort-a-Mole
+	url = ssh://git@github.com/jessicah/sort-a-mole
+[submodule "List-a-Mole"]
+	path = List-a-Mole
+	url = ssh://git@github.com/jessicah/list-a-mole
