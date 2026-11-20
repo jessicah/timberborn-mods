@@ -1,0 +1,23 @@
+{
+    "TemplateCollectionSpec": {
+        "CollectionId": "Buildings.IronTeeth",
+		"Blueprints#remove": [
+			"Buildings/Decoration/Shrub.IronTeeth.blueprint",
+			"Buildings/Decoration/Lantern.IronTeeth.blueprint",
+			"Buildings/Decoration/MetalFence.IronTeeth.blueprint",
+			"Buildings/DistrictManagement/DistrictCenter/DistrictCenter.IronTeeth.blueprint",
+			"Buildings/Housing/Barrack/Barrack.IronTeeth.blueprint",
+			"Buildings/Housing/LargeBarrack/LargeBarrack.IronTeeth.blueprint",
+			"Buildings/Housing/LargeRowhouse/LargeRowhouse.IronTeeth.blueprint",
+			"Buildings/Housing/Rowhouse/Rowhouse.IronTeeth.blueprint",
+			"Buildings/Food/FoodFactory/FoodFactory.IronTeeth.blueprint",
+			"Buildings/Power/SteamEngine/SteamEngine.IronTeeth.blueprint",
+			"Buildings/Decoration/Roof1x2/Roof1x2.IronTeeth.blueprint",
+			"Buildings/Decoration/Roof2x2/Roof2x2.IronTeeth.blueprint",
+			"Buildings/Decoration/Roof2x3/Roof2x3.IronTeeth.blueprint",
+			"Buildings/Decoration/Roof3x2/Roof3x2.IronTeeth.blueprint",
+			"Buildings/Paths/TubewayStation/TubewayStation.IronTeeth.blueprint"
+      
+		]
+    },
+}

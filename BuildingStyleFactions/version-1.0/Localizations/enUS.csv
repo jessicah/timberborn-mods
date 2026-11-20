@@ -1,0 +1,13 @@
+ID,Text,Comment
+Building.Stringlights.Description,"Hanging lights between two post",""
+StringLight.DisplayName,"StringLights",""
+StringLights.FlavorDescription,"Buncha hanging Lights",""
+MiniCabin.DisplayName,"Mini Cabin",""
+Cabin.DisplayName,"Cabin",""
+DoubleCabin.DisplayName,"Double Cabin",""
+TripleCabin.DisplayName,"Triple Cabin",""
+WindMill.DisplayName,"Wind Mill",""
+Faction.TribalTails.DisplayName,"Tribal Tails",""
+Faction.TribalTails.Description,"FolkTails with REDIC's Buildings",""
+Faction.SteelTeeth.DisplayName,"Steel Teeth",""
+Faction.SteelTeeth.Description,"Iron Teeth with REDIC's Buildings",""

@@ -1,0 +1,27 @@
+{
+    "TemplateCollectionSpec": {
+        "CollectionId": "Buildings.SteelTeeth",
+        "Blueprints": [
+            "Buildings/DistrictManagement/DistrictCenter/DistrictCenter.SteelTeeth.blueprint",
+			
+			"Buildings/Flats/Flat.SteelTeeth.blueprint",
+            "Buildings/Flats/WideFlat.SteelTeeth.blueprint",
+            "Buildings/Flats/TallFlat.SteelTeeth.blueprint",
+            "Buildings/Flats/TallerFlat.SteelTeeth.blueprint",
+
+            "Buildings/Decor/Lamp.SteelTeeth.blueprint",
+            "Buildings/Decor/Stringlights.SteelTeeth.blueprint",
+            "Buildings/Decor/Cyprus.SteelTeeth.blueprint",
+
+            "Buildings/Food/Foodplant.SteelTeeth.blueprint",
+
+            "Buildings/Power/SteamPlant.SteelTeeth.blueprint",
+
+            "Buildings/Roofs/FlatRoof1x2.SteelTeeth.blueprint",
+            "Buildings/Roofs/FlatRoof3x2.SteelTeeth.blueprint",
+            "Buildings/Roofs/FlatRoof3x3.SteelTeeth.blueprint",
+
+            "Buildings/TubeWay/TubewayStop.SteelTeeth.blueprint",
+        ],
+    },
+}

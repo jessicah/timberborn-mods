@@ -1,0 +1,9 @@
+{
+    "Name": "Factions with REDIC's New Building Styles.",
+    "Version": "0.1",
+    "Id": "LadyJesikat.Factions.Redic.NewStyles",
+    "MinimumGameVersion": "1.0.0.0",
+    "Description": "Steel Teeth Faction using REDIC's new building styles for both IronTeeth and FolkTails, also new buildings as well!",
+    "RequiredMods": [],
+    "OptionalMods": []
+}
