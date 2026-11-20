@@ -1,8 +1,8 @@
-{
-	"Name": "Custom UI Scale (60%)",
-	"Version": "1.0.0",
-	"Id": "custom_ui_scale_60",
-	"MinimumGameVersion": "1.1.0.0",
-	"Description": "Hardcodes the UI scale to 60%",
-	"RequiredMods": [{"Id": "Harmony"}]
+﻿{
+  "Name": "Custom UI Scale",
+  "Version": "1.0.0",
+  "Id": "LadyJesikat.CustomUIScale",
+  "MinimumGameVersion": "1.1.0.0",
+  "Description": "Hardcodes the UI scale to 70%",
+  "RequiredMods": [{"Id": "Harmony"}]
 }
