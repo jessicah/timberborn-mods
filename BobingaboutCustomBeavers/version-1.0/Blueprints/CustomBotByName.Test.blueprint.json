@@ -1,0 +1,13 @@
+{
+  "CustomBotByNameSpec": {
+    "Name": "Greg #",
+    "AddNameToList": true,
+    "Sets": [
+      {
+        "FactionIds": ["Emberpelts"],
+        "Texture": "NadBot1.Emberpelts",
+        "Avatar": "NadBot1Icon.Emberpelts"
+      }
+    ]
+  }
+}

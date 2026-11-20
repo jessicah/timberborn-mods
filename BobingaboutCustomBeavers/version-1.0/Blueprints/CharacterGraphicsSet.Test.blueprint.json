@@ -1,0 +1,8 @@
+{
+  "CharacterGraphicsSetSpec": {
+    "SetId": "NadBot1",
+    "FactionIds": ["Folktails","Emberpelts"],
+    "Textures": ["NadBot1.Emberpelts"],
+    "Avatar": "NadBot1Icon.Emberpelts"
+  }
+}

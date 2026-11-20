@@ -1,0 +1,12 @@
+{
+  "CustomBotNamesListSpec":
+  {
+    "EnableBotNames": false,
+    "Names": [
+"Fred #",
+"Jim #",
+"Bob #",
+"Joe #"
+    ]
+  }
+}

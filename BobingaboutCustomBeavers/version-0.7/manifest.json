@@ -1,0 +1,11 @@
+{
+    "AuthorName": "Bobingabout",
+    "Name": "Bobingabout Custom Beavers",
+    "Version": "0.7.0.0",
+    "Id": "BobingaboutCustomBeavers",
+    "MinimumGameVersion": "0.7.0.0",
+    "Description": "Allows you to customise beavers, and names list.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack"},
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ExcludeFromNamePool": "False", //Change this to True if you don't want to add these names to the names pool.
+    "Names": [
+//Put names here, Each name should be in double quotes and seperated by a comma. It can span multiple lines. EG: "Name1", "Name2", "Name3"
+    ],
+//The files listed below are in the Bobingabout Script Pack mod. If you know what you're doing, you can use custom textures and icons.
+    "Texture": "CustomBeavers/Textures/BeaverAdult.Gold",
+    "ChildTexture": "CustomBeavers/Textures/BeaverChild.Gold",
+    "Avatar": "CustomBeavers/Avatars/GoldAdult",
+    "ChildAvatar": "CustomBeavers/Avatars/GoldChild",
+    "ContaminatedAvatar": "CustomBeavers/Avatars/GoldContaminatedAdult",
+    "ContaminatedChildAvatar": "CustomBeavers/Avatars/GoldContaminatedChild"
+}
