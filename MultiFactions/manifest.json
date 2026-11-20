@@ -1,0 +1,9 @@
+﻿{
+	"Name": "MultiFactions",
+	"Version": "0.1",
+	"Id": "MultiFactions",
+	"MinimumGameVersion": "1.0.0.0",
+	"Description": "Implements multiple faction games, allows faction specific behaviour to be maintainted",
+	"RequiredMods": [],
+	"OptionalMods": []
+}

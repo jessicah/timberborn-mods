@@ -1,0 +1,10 @@
+{
+	"MultiFactionSpec": {
+		"Id": "MultiFaction",
+		"FactionIds": [
+			"Folktails",
+			"IronTeeth",
+			"Emberpelts"
+		]
+	}
+}
