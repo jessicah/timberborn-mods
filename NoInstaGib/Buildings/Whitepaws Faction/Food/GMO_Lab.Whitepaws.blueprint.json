@@ -1,0 +1,11 @@
+{
+  "WorkshopRandomNeedApplierSpec": {
+    "Effects#remove": [
+      {
+        "NeedId": "DiseaseDeath",
+        "Points": -10.0,
+        "Probability": "Low"
+      }
+    ]
+  }
+}

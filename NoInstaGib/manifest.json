@@ -1,0 +1,8 @@
+{
+	"Name": "No InstaGib",
+	"Version": "1.0.0",
+	"Id": "no_insta_gib",
+	"MinimumGameVersion": "1.1.0.0",
+	"Description": "Removes the Whitepaws instant death penalty",
+	"RequiredMods": [{"Id": "Lapantoufleagic.WhitepawsFaction"}]
+}
