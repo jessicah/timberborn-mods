@@ -1,0 +1,11 @@
+{
+	"WorkshopRandomNeedApplierSpec": {
+		"Effects": [
+			{
+				"NeedId": "Injury",
+				"Points": -0.1,
+				"Probability": "Low"
+			}
+		]
+	}
+}

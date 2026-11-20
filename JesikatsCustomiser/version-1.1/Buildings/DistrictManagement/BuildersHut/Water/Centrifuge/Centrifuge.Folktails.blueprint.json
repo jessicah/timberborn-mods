@@ -1,0 +1,11 @@
+{
+	"WorkshopRandomNeedApplierSpec": {
+		"Effects": [
+			{
+				"NeedId": "BadwaterContamination",
+				"Points": -0.1,
+				"Probability": "Low"
+			}
+		]
+	}
+}

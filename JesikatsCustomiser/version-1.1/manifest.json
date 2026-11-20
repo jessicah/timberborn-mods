@@ -1,0 +1,15 @@
+{
+  "AuthorName": "ladyjesikat",
+  "Name": "Lady Jesikat's Customiser",
+  "Version": "1.0.0",
+  "Id": "JesikatsCustomiser",
+  "MinimumGameVersion": "1.1.0.0",
+  "Description": "Various basic changes to behaviours, such as more injuries, more contamination",
+  "OptionalMods":
+  [
+    { "Id": "Emberpelts", "MinimumVersion": "1.0.12.1" },
+    { "Id": "LeafCoats", "MinimumVersion": "1.0.12.1" },
+    { "Id": "Lapantoufleagic.WhitepawsFaction", "MinimumVersion": "6.2.3" },
+    { "Id": "Lapantoufleagic.FrostyWhiskersFaction", "MinimumVersion": "0.0.1" }
+  ]
+}
