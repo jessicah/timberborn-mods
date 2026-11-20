@@ -1,0 +1,8 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "ChooChoo.Default",
+    "Blueprints#append": [
+      "Buildings/TrackTParallel3x3/TrackTParallel3x3.blueprint"
+    ]
+  }
+}

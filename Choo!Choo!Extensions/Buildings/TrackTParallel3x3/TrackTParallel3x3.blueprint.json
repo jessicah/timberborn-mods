@@ -1,0 +1,765 @@
+{
+  "BuildingSpec": {
+    "SelectionSoundName": "Default",
+    "LoopingSoundName": "",
+    "BuildingCost": [
+      {
+        "Id": "Plank",
+        "Amount": 24
+      },
+      {
+        "Id": "ScrapMetal",
+        "Amount": 12
+      }
+    ],
+    "ScienceCost": 0,
+    "PlaceFinished": false,
+    "FinishableWithBeaversOnSite": false,
+    "DrawRangeBoundsOnIt": false
+  },
+  "BuildingModelSpec": {
+    "FinishedModelName": "#Finished",
+    "UnfinishedModelName": "#Unfinished",
+    "FinishedUncoveredModelName": "",
+    "UndergroundModelName": "",
+    "ConstructionModeModel": "Finished",
+    "UndergroundModelDepth": 0
+  },
+  "TemplateSpec": {
+    "TemplateName": "TrackTParallel3x3",
+    "BackwardCompatibleTemplateNames": [],
+    "RequiredFeatureToggle": "",
+    "DisablingFeatureToggle": ""
+  },
+  "BlockObjectSpec": {
+    "Size": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
+    "Blocks": [
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "Any",
+        "Occupations": "None",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      },
+      {
+        "MatterBelow": "GroundOrStackable",
+        "Occupations": "Bottom, Corners, Path",
+        "Stackable": "None",
+        "OccupyAllBelow": false,
+        "Underground": false
+      }
+    ],
+    "Entrance": {
+      "HasEntrance": false,
+      "Coordinates": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    "BaseZ": 0,
+    "Overridable": false,
+    "Flippable": true
+  },
+  "BlockObjectNavMeshSettingsSpec": {
+    "NoAutoWalls": true,
+    "GenerateFloorsOnStackable": true,
+    "EdgeGroups": [
+      {
+        "Cost": 1.0,
+        "Group": {
+          "UseGroup": false,
+          "GroupName": ""
+        },
+        "IsPath": true,
+        "AddedEdges": []
+      }
+    ],
+    "UnblockedCoordinates": [],
+    "BlockedEdges": []
+  },
+  "PlaceableBlockObjectSpec": {
+    "ToolGroupId": "TobbertTrains",
+    "ToolOrder": 170,
+    "ToolShape": "Square",
+    "Layout": "Single",
+    "CustomPivot": {
+      "HasCustomPivot": false,
+      "Coordinates": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "CanBeAttachedToTerrainSide": false,
+    "DevModeTool": false
+  },
+  "LabeledEntitySpec": {
+    "DisplayNameLocKey": "Tobbert.TrackTParallel3x3.DisplayName",
+    "DescriptionLocKey": "Tobbert.TrackTParallel3x3.Description",
+    "FlavorDescriptionLocKey": "Tobbert.TrackTParallel3x3.FlavorDescription",
+    "Icon": "Tobbert/Icons/Tracks/TrackIntersectionTIcon-v6"
+  },
+  "ConstructionSiteProgressVisualizerSpec": {
+    "ProgressThresholds": [
+      0.05
+    ]
+  },
+  "TrackPieceSpec": {
+    "Id": "TrackTParallel3x3",
+    "CostMultiplier": 1.0,
+    "TrackRoutes": [
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          },
+          "Direction": "Up"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        }
+      },
+      {
+        "Entrance": {
+          "Coordinates": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Direction": "Right"
+        },
+        "Exit": {
+          "Coordinates": {
+            "X": 1,
+            "Y": 2,
+            "Z": 0
+          },
+          "Direction": "Down"
+        }
+      },
+	  /* top horizontal track */
+	  {
+		"Entrance": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 0,
+				"Z": 0
+			},
+			"Direction": "Up"
+		},
+		"Exit": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 2,
+				"Z": 0
+			},
+			"Direction": "Down"	
+		}
+	  },
+	  {
+		"Entrance": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 2,
+				"Z": 0
+			},
+			"Direction": "Down"
+		},
+		"Exit": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 0,
+				"Z": 0
+			},
+			"Direction": "Up"	
+		}
+	  },
+	  /* bottom tee top left */
+	  {
+		"Entrance": {
+			"Coordinates": {
+				"X": 0,
+				"Y": 1,
+				"Z": 0
+			},
+			"Direction": "Right"
+		},
+		"Exit": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 2,
+				"Z": 0
+			},
+			"Direction": "Down"	
+		}
+	  },
+	  {
+		"Entrance": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 2,
+				"Z": 0
+			},
+			"Direction": "Down"
+		},
+		"Exit": {
+			"Coordinates": {
+				"X": 0,
+				"Y": 1,
+				"Z": 0
+			},
+			"Direction": "Right"
+		}
+	  },
+	  /* bottom tee top right */
+	  {
+		"Entrance": {
+			"Coordinates": {
+				"X": 0,
+				"Y": 1,
+				"Z": 0
+			},
+			"Direction": "Right"
+		},
+		"Exit": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 0,
+				"Z": 0
+			},
+			"Direction": "Up"
+		}
+	  },
+	  {
+		"Entrance": {
+			"Coordinates": {
+				"X": 0,
+				"Y": 1,
+				"Z": 0
+			},
+			"Direction": "Right"
+		},
+		"Exit": {
+			"Coordinates": {
+				"X": 2,
+				"Y": 0,
+				"Z": 0
+			},
+			"Direction": "Up"	
+		}
+	  }
+    ]
+  },
+  "Children": {
+    "#Finished": {
+      "TimbermeshSpec": {
+        "Model": "Buildings/TrackTParallel3x3/TrackTParallel3x3.Default"
+      },
+      "CollidersSpec": {
+        "BoxColliders": [
+          {
+            "Center": {
+              "X": 1.5,
+              "Y": 0.075,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 0.7,
+              "Y": 0.15,
+              "Z": 3.0
+            }
+          },
+          {
+            "Center": {
+              "X": 0.26,
+              "Y": 0.075,
+              "Z": 1.5
+            },
+            "Size": {
+              "X": 0.52,
+              "Y": 0.15,
+              "Z": 0.75
+            }
+          }
+        ],
+        "SphereColliders": [],
+        "CapsuleColliders": []
+      },
+      "Children": {
+        "ClickArcSud30": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 60.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.075,
+                  "Z": 1.5125
+                },
+                "Size": {
+                  "X": 0.9649,
+                  "Y": 0.15,
+                  "Z": 0.703
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickArcSud60": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 30.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.075,
+                  "Z": 1.5125
+                },
+                "Size": {
+                  "X": 0.9649,
+                  "Y": 0.15,
+                  "Z": 0.703
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickArcNord30": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 3.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 120.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.075,
+                  "Z": 1.5125
+                },
+                "Size": {
+                  "X": 0.9649,
+                  "Y": 0.15,
+                  "Z": 0.703
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        },
+        "ClickArcNord60": {
+          "TransformSpec": {
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 3.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 150.0,
+              "Z": 0.0
+            },
+            "Scale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 0.0,
+                  "Y": 0.075,
+                  "Z": 1.5125
+                },
+                "Size": {
+                  "X": 0.9649,
+                  "Y": 0.15,
+                  "Z": 0.703
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          }
+        }
+      }
+    },
+    "#Unfinished": {
+      "Children": {
+        "ConstructionBaseTParallel3x3#nested": {
+          "BlueprintPath": "ConstructionBases/ConstructionBaseTParallel3x3/ConstructionBaseTParallel3x3.blueprint"
+        },
+        "ConstructionStage0": {
+          "TimbermeshSpec": {
+            "Model": "Buildings/TrackTParallel3x3/TrackTParallel3x3.Stage1.Default"
+          },
+          "CollidersSpec": {
+            "BoxColliders": [
+              {
+                "Center": {
+                  "X": 1.5,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.7,
+                  "Y": 0.15,
+                  "Z": 3.0
+                }
+              },
+              {
+                "Center": {
+                  "X": 0.26,
+                  "Y": 0.075,
+                  "Z": 1.5
+                },
+                "Size": {
+                  "X": 0.52,
+                  "Y": 0.15,
+                  "Z": 0.75
+                }
+              }
+            ],
+            "SphereColliders": [],
+            "CapsuleColliders": []
+          },
+          "Children": {
+            "ClickArcSud30": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 60.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.075,
+                      "Z": 1.5125
+                    },
+                    "Size": {
+                      "X": 0.9649,
+                      "Y": 0.15,
+                      "Z": 0.703
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickArcSud60": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 30.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.075,
+                      "Z": 1.5125
+                    },
+                    "Size": {
+                      "X": 0.9649,
+                      "Y": 0.15,
+                      "Z": 0.703
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickArcNord30": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 3.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 120.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.075,
+                      "Z": 1.5125
+                    },
+                    "Size": {
+                      "X": 0.9649,
+                      "Y": 0.15,
+                      "Z": 0.703
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            },
+            "ClickArcNord60": {
+              "TransformSpec": {
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 3.0
+                },
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 150.0,
+                  "Z": 0.0
+                },
+                "Scale": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "CollidersSpec": {
+                "BoxColliders": [
+                  {
+                    "Center": {
+                      "X": 0.0,
+                      "Y": 0.075,
+                      "Z": 1.5125
+                    },
+                    "Size": {
+                      "X": 0.9649,
+                      "Y": 0.15,
+                      "Z": 0.703
+                    }
+                  }
+                ],
+                "SphereColliders": [],
+                "CapsuleColliders": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

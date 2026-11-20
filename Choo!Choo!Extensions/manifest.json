@@ -1,0 +1,13 @@
+{
+	"Name":"Choo!Choo! Extensions",
+	"Version": "1.0.0",
+	"Id": "ChooChoo.Extensions",
+	"Author": "Jessica Hamilton",
+	"MinimumGameVersion": "1.1",
+	"Description": "Extra track pieces for Choo!Choo! Full Steam Ahead",
+	"RequiredMods":[
+		{
+			"Id": "Aoernis.ChooChoo"
+		}
+	]
+}
