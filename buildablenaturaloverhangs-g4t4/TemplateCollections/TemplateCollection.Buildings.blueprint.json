@@ -1,0 +1,10 @@
+{
+  "TemplateCollectionSpec": {
+    "CollectionId": "Common",
+    "Blueprints#append": [
+      "Buildings/Landscaping/DirtOverhang2x1/DirtOverhang2x1.blueprint",
+      "Buildings/Landscaping/DirtOverhang3x1/DirtOverhang3x1.blueprint",
+      "Buildings/Landscaping/DirtOverhang4x1/DirtOverhang4x1.blueprint"
+	]
+  }
+}

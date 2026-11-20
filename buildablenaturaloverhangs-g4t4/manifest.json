@@ -1,0 +1,9 @@
+{
+  "Name": "Buildable Natural Overhangs",
+  "Version": "0.1",
+  "Id": "Building.NaturalOverhangs",
+  "MinimumGameVersion": "1.0.0.0",
+  "Description": "",
+  "RequiredMods": [],
+  "OptionalMods": []
+}
