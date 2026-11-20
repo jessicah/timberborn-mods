@@ -1,0 +1,14 @@
+{
+	"CustomBotByNameSpec":
+	{
+		"Name": "Ghola #",
+		"AddNameToList": true,
+		"Sets": [
+			{
+				"FactionIds": ["Adaptors"],
+				"Texture": "Materials/Bots/Emberpelts/Bot7.Emberpelts",
+				"Avatar": "Sprites/Avatars/EmberpeltsBotRS",
+			}
+		]
+	}
+}

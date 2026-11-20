@@ -1,0 +1,16 @@
+{
+	"CustomBotByNameSpec":
+	{
+		"Name": "NadBot #",
+		"AddNameToList": true,
+		"Sets": [
+			{
+				"FactionIds": ["Adaptors"],
+				/*"Texture": "Materials/Bots/Emberpelts/Bot7.Emberpelts",
+				"Avatar": "Sprites/Avatars/EmberpeltsBotRS",*/
+				"Texture": "Textures/NadBot1.Emberpelts",
+				"Avatar": "Textures/NadBot1Icon.Emberpelts"
+			}
+		]
+	}
+}

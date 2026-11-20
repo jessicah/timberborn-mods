@@ -1,0 +1,12 @@
+{
+    "AuthorName": "LadyJesikat",
+    "Name": "LadyJesikat Custom Beavers",
+    "Version": "0.7.0.0",
+    "Id": "LadyJesikatCustomBeavers",
+    "MinimumGameVersion": "0.7.0.0",
+    "Description": "Allows you to customise beavers, and names list.",
+    "RequiredMods": [
+        {"Id": "BobingaboutScriptPack"},
+		{"Id": "Emberpelts"},
+    ]
+}
